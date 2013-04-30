@@ -7,14 +7,20 @@ Random node utilities. Use them, don't use them.
 
 ## Functions
 
-1. ###simplewalk
+1. ###simplewalk()
 Simply and synchronously lists all files (filename and full path) from within every folder of the specified dir.
 
-2. ###search
+Usage: ```var files = utils.simplewalk('/test');```
+
+2. ###search()
 Does a GREP for a term within the specified file.
 
-3. ###timing
-Gives you a human-readable printout of the difference between two times
+Usage: ```var result = utils.search('foo', 'bar.txt')```
+
+3. ###timing()
+Gives you a human-readable printout of the difference between two times. Doesn't matter which way round you place the times
+
+Usage: ```console.log(utils.timing(time1, time2));```
 
 
 ## Installation
