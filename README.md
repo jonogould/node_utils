@@ -39,6 +39,13 @@ How do you use ``` utils ```, I hear you asking? Well add this to the top of you
 	var utils = require('utils');
 
 
+## Functions
+
+- simplewalk (Simply and synchronously lists all files (filename and full path) from within every folder of the specified dir.)
+- search (Does a GREP for a term within the specified file.)
+- timing (Gives you a human-readable printout of the difference between two times)
+
+
 ## Examples
 
 Coming soon: check out the [wiki](https://github.com/TravelGround/utils/wiki) for some examples on what this tool could be used for, check it out and add your own!

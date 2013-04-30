@@ -26,8 +26,7 @@ var _ = require('underscore');
 *	Simplewalk
 *	==========
 *	Simply and synchronously lists all files (filename and full path)
-*	from within every folder of the specified dir. Based on walker by
-*	wayneashleyberry (https://github.com/wayneashleyberry/walker).
+*	from within every folder of the specified dir.
 *	
 *	Returns = array or objects (filename, full path)
 *
