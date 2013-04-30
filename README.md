@@ -7,9 +7,14 @@ Random node utilities. Use them, don't use them.
 
 ## Functions
 
-1. simplewalk (Simply and synchronously lists all files (filename and full path) from within every folder of the specified dir.)
-2. search (Does a GREP for a term within the specified file.)
-3. timing (Gives you a human-readable printout of the difference between two times)
+1. ###simplewalk
+Simply and synchronously lists all files (filename and full path) from within every folder of the specified dir.
+
+2. ###search
+Does a GREP for a term within the specified file.
+
+3. ###timing
+Gives you a human-readable printout of the difference between two times
 
 
 ## Installation
