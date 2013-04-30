@@ -10,17 +10,11 @@ Random node utilities. Use them, don't use them.
 1. ###simplewalk()
 Simply and synchronously lists all files (filename and full path) from within every folder of the specified dir.
 
-Usage: ```var files = utils.simplewalk('/test');```
-
 2. ###search()
 Does a GREP for a term within the specified file.
 
-Usage: ```var result = utils.search('foo', 'bar.txt')```
-
 3. ###timing()
 Gives you a human-readable printout of the difference between two times. Doesn't matter which way round you place the times
-
-Usage: ```console.log(utils.timing(time1, time2));```
 
 
 ## Installation
@@ -54,6 +48,11 @@ Lastly make the script executable using ```chmod +x utils.js```
 How do you use ``` utils ```, I hear you asking? Well add this to the top of your node script file and get going!
 
 	var utils = require('utils');
+
+	var files = utils.simplewalk('/test');
+	var result = utils.search('foo', 'bar.txt');
+	console.log(utils.timing(time1, time2));
+
 
 
 ## Examples
