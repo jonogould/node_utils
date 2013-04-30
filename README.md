@@ -36,7 +36,7 @@ Lastly make the script executable using ```chmod +x utils.js```
 
 How do you use ``` utils ```, I hear you asking? Well add this to your node script file and get going!
 
-	`var utils = require('utils');`
+	var utils = require('utils');
 
 
 ## Examples
